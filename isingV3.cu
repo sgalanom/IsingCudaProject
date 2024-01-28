@@ -132,13 +132,13 @@ void copyModelFromDevice(int size, char *hostModel, char *deviceModel) {
 
 int main() {
 
-    srand(time(NULL));  // Seed for random number generation
+    srand(42);  // Seed for random number generation
 
 
 
-    int size = 15;       // Size of the 2D lattice
+    int size = 25;       // Size of the 2D lattice
 
-    int iterations = 12; // Number of iterations
+    int iterations = 35; // Number of iterations
 
 
 

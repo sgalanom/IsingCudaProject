@@ -3,8 +3,11 @@ This repository contains the implementation of the Ising model simulation in two
 
 # Versions Implemented
 V0. Sequential implementation in C to simulate the Ising model.
+
 V1. CUDA implementation with one thread per moment.
+
 V2. CUDA implementation with optimized thread assignments.
+
 V3. CUDA implementation utilizing shared memory for optimization.
 
 # Example Usage in aristotelis Remote Shell
